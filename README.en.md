@@ -30,7 +30,7 @@ It uses the standard `SKILL.md` format and works with Claude Code, Codex, Gemini
 1. **Don't open with "make me":** first say who it's for, how much time you have, and what you want them to do afterward. Then add: "Don't build anything yet — ask me questions first." The AI asks about the parts you haven't thought through.
 2. **Let AI gather the material:** finding reports, organizing data, cross-checking sources. Require a source for every item, and if it can't find something, it should say so instead of filling the gap. You decide which material is worth putting on stage.
 3. **Work out the message together:** ask "What claims can this data support?" It offers two or three directions; you pick one, then ask it to argue the other side. The sentence that survives is your message. Data is material; the claim is the presentation.
-4. **Slide count is calculated:** subtract Q&A first. An audience remembers at most three key points, and the slide count grows out of the time you have.
+4. **Slide count is calculated:** reserve time for Q&A first, which leaves about 15 minutes of talking out of 20. An audience remembers at most three key points, so you land at roughly 12–20 slides—calculated, not guessed.
 5. **Find the relationship before drawing:** are the bullets a sequence, a contrast, a cause, or an overlap? Once you know, choose a step bar, quadrant or arrows; then unify layout and colors.
 6. **Hand off to tools last:** once the spec is clear, give it to Gamma, Canva or similar tools to build.
 
