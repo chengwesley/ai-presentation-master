@@ -21,17 +21,18 @@ It uses the standard `SKILL.md` format and works with Claude Code, Codex, Gemini
 
 ## Same request, two approaches
 
-> "Next Wednesday I'm pitching our general manager for a NT$5M budget to adopt an AI customer-service system. About 20 minutes."
+> "Next week I'm presenting a new project to my manager. 20 minutes."
 
-**Ask an AI to just make it:** you instantly get a 20-slide outline whose first slide says "In this rapidly changing era, AI is an irreversible trend." It looks complete, but none of it is your point of view, and nobody did the math on time.
+**Ask an AI to just make it:** most people open with "Make me a presentation on X" and get 15 dense slides. The data is all there and neatly arranged, but that's just data laid out, not a presentation. A presentation walks people to a conclusion.
 
-**With AI Presentation Master:**
+**Collaborate with AI:**
 
-1. **It asks three questions first:** How much time do you have? What kind of setting is this? Will you present it live, or will people read it on their own?
-2. **It turns time into content budget:** 20 minutes minus Q&A leaves roughly 15 minutes of talking; an audience retains at most about 3 core messages, so you land at roughly 12–20 slides. Slide count is calculated, not guessed.
-3. **It picks the right structure:** when asking an executive for a decision, lead with the conclusion (Pyramid Principle) — don't build up background and reveal the ask at the very end.
-4. **It draws out what only you know:** your viewpoint and real cases come from you. It helps you surface and organize them; it doesn't invent them.
-5. **It prepares you for the hard questions:** the AI plays an ROI-focused CFO and runs through the toughest questions before you're on stage.
+1. **Don't open with "make me":** first say who it's for, how much time you have, and what you want them to do afterward. Then add: "Don't build anything yet — ask me questions first." The AI asks about the parts you haven't thought through.
+2. **Let AI gather the material:** finding reports, organizing data, cross-checking sources. Require a source for every item, and if it can't find something, it should say so instead of filling the gap. You decide which material is worth putting on stage.
+3. **Work out the message together:** ask "What claims can this data support?" It offers two or three directions; you pick one, then ask it to argue the other side. The sentence that survives is your message. Data is material; the claim is the presentation.
+4. **Slide count is calculated:** subtract Q&A first. An audience remembers at most three key points, and the slide count grows out of the time you have.
+5. **Find the relationship before drawing:** are the bullets a sequence, a contrast, a cause, or an overlap? Once you know, choose a step bar, quadrant or arrows; then unify layout and colors.
+6. **Hand off to tools last:** once the spec is clear, give it to Gamma, Canva or similar tools to build.
 
 The difference isn't whether the slides look good. It's whether **you know what you're trying to convince them of** when you walk in.
 
@@ -57,13 +58,13 @@ The difference isn't whether the slides look good. It's whether **you know what 
 
 **Original**
 
-> In this rapidly changing era full of challenges and opportunities, adopting AI customer service is an irreversible trend. Let's join hands to create a better future together.
+> In this rapidly changing era full of challenges and opportunities, pushing this new project forward is an irreversible trend. Let's join hands to create a better future together.
 
 **Problems:** stacked adjectives, no concrete information, and the audience doesn't know what to do afterward.
 
 **Rewrite direction** (illustrative — replace the placeholders with your own real data)
 
-> Night-shift complaints currently wait an average of [X] hours for a reply. AI customer service can handle [Y]% of common questions first — that's why I'm here today asking for this budget.
+> The team spends [X] hours a week on [a specific task]. This new project brings that down to [Y] hours — today I'm asking you to decide whether we start.
 
 It will ask you for real numbers. It won't make one up and put it on your slide.
 
