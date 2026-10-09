@@ -1,0 +1,139 @@
+{
+  "skill_name": "presentation-thinking",
+  "notes": "Trigger eval set。正例涵蓋四種場合＋新增的 13/14（規格交接、交付規格）。負例刻意選『近似但應交給別的 skill』的情境，用來偵測 description 過度觸發。",
+  "queries": [
+    {
+      "id": "pos-01-from-scratch",
+      "query": "我下週三要跟總經理提案，爭取500萬預算導入AI客服系統，大概20分鐘。我完全不知道要怎麼構思這份簡報，可以幫我想一下嗎？",
+      "should_trigger": true,
+      "tags": ["商業提案", "構思"],
+      "notes": "最核心的正例：從零構思。應觸發並走 Step 0 三題"
+    },
+    {
+      "id": "pos-02-ai-tell",
+      "query": "這是我簡報的一段內文，我覺得讀起來很空洞、很像AI寫的：『在這個瞬息萬變的時代中，企業導入AI已是不可逆的趨勢，讓我們攜手共創更美好的未來。』可以幫我改嗎？",
+      "should_trigger": true,
+      "tags": ["潤稿", "04"],
+      "notes": "去除 AI 味"
+    },
+    {
+      "id": "pos-03-bullets-to-visual",
+      "query": "我這頁列了五個項目，看起來超無聊，有什麼辦法變成圖嗎？",
+      "should_trigger": true,
+      "tags": ["視覺化", "11"],
+      "notes": "條列圖解化——最高頻情境"
+    },
+    {
+      "id": "pos-04-inconsistent",
+      "query": "我這份30頁的簡報每一頁長得都不太一樣，整體看起來很雜、很不專業，該怎麼統一？",
+      "should_trigger": true,
+      "tags": ["版面系統", "12"]
+    },
+    {
+      "id": "pos-05-boss-feedback",
+      "query": "主管看完我的進度報告說我講太多過程、沒講結論，下次要怎麼改？",
+      "should_trigger": true,
+      "tags": ["對內匯報", "金字塔"]
+    },
+    {
+      "id": "pos-06-qa-fear",
+      "query": "下週要對客戶提案，我很怕被問倒，要怎麼事先準備問答？",
+      "should_trigger": true,
+      "tags": ["Q&A", "09"]
+    },
+    {
+      "id": "pos-07-workshop",
+      "query": "公司要我設計一場三小時的內部訓練課程，教同事怎麼用 AI 工具，我該怎麼安排？",
+      "should_trigger": true,
+      "tags": ["教育訓練", "10"]
+    },
+    {
+      "id": "pos-08-how-many-pages",
+      "query": "15分鐘的分享大概要做幾頁投影片才適合？",
+      "should_trigger": true,
+      "tags": ["時間換算", "01"]
+    },
+    {
+      "id": "pos-09-delivery-font",
+      "query": "這份簡報明天要寄給客戶，我用的字型他們電腦應該沒有，會不會跑版？要直接給他們 PDF 嗎？",
+      "should_trigger": true,
+      "tags": ["交付", "14"],
+      "notes": "測新增的 14。與 neg-10 的 PDF 操作構成難分辨對照"
+    },
+    {
+      "id": "pos-10-spec-handoff",
+      "query": "我想好這頁要畫成因果鏈了，但每次叫 Gamma 做出來都變成三張一樣大的卡片，重點完全不見。要怎麼下指令才不會這樣？",
+      "should_trigger": true,
+      "tags": ["規格交接", "13"],
+      "notes": "測新增的 13。表面像工具操作問題，實際是規格交接問題"
+    },
+    {
+      "id": "neg-01-slides-production",
+      "query": "幫我把這份大綱做成 HTML 投影片檔案，要用 Chart.js 畫兩張圖表，深色主題。",
+      "should_trigger": false,
+      "tags": ["應給投影片產出工具"],
+      "notes": "內容已收斂，純產出工作。過度觸發的頭號風險"
+    },
+    {
+      "id": "neg-02-open-slide-scaffold",
+      "query": "幫我在 open-slide 建一個新的 deck，id 叫 q3-review，然後起 dev server 讓我預覽。",
+      "should_trigger": false,
+      "tags": ["應給投影片產出工具"],
+      "notes": "純鷹架/環境操作"
+    },
+    {
+      "id": "neg-03-linkedin-post",
+      "query": "幫我寫一篇 LinkedIn 貼文，談 AI 會不會取代 HR，用我平常的風格。",
+      "should_trigger": false,
+      "tags": ["應給個人寫作風格類 skill"],
+      "notes": "寫作但非簡報"
+    },
+    {
+      "id": "neg-04-logo",
+      "query": "幫我設計一個公司 logo，科技感一點，藍色系。",
+      "should_trigger": false,
+      "tags": ["應給視覺設計類 skill"],
+      "notes": "視覺設計但與簡報無關——description 提到配色/版型，有誤觸風險"
+    },
+    {
+      "id": "neg-05-code",
+      "query": "這段 Python 的 for loop 有點囉唆，可以怎麼簡化？",
+      "should_trigger": false,
+      "tags": ["無關"]
+    },
+    {
+      "id": "neg-06-contract",
+      "query": "幫我看一下這份合約有沒有對我們不利的條款。",
+      "should_trigger": false,
+      "tags": ["無關"]
+    },
+    {
+      "id": "neg-07-fb-banner",
+      "query": "幫我做一張 Facebook 廣告 banner，主打免費試用14天。",
+      "should_trigger": false,
+      "tags": ["應給廣告設計類 skill"],
+      "notes": "有版面與配色需求，但不是簡報"
+    },
+    {
+      "id": "neg-08-excel",
+      "query": "幫我把這個 Excel 的銷售資料做成樞紐分析表，按區域和月份分組。",
+      "should_trigger": false,
+      "tags": ["應給 xlsx"],
+      "notes": "有數據呈現需求，但不是簡報圖表"
+    },
+    {
+      "id": "neg-09-meeting-logistics",
+      "query": "幫我訂下週三下午的會議室，要跟總經理和三個部門主管開會，大概一小時。",
+      "should_trigger": false,
+      "tags": ["無關"],
+      "notes": "刻意含『總經理』『下週三』『一小時』等簡報情境詞，測 description 會不會被關鍵字釣走"
+    },
+    {
+      "id": "neg-10-pdf-extract",
+      "query": "幫我把這份 PDF 的第 3 到 5 頁抽出來存成另一個檔案。",
+      "should_trigger": false,
+      "tags": ["應給 pdf"],
+      "notes": "與 pos-09 構成對照：都提到 PDF，但這是檔案操作不是交付規格"
+    }
+  ]
+}
