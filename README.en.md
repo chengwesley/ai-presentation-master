@@ -5,7 +5,7 @@
 <p align="center">
   <a href="docs/ai-presentation-master-intro.mp4"><img src="docs/ai-presentation-master-intro.webp" alt="AI 簡報大師 intro" width="800"></a>
 </p>
-<p align="center"><sub>Click for the full video with music (MP4, 36s)</sub></p>
+<p align="center"><sub>Click for the full video with music (MP4, 45s)</sub></p>
 
 **AI can generate a beautiful deck in one click. Then your boss interrupts halfway: "So what's the conclusion?"**
 
