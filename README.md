@@ -5,7 +5,7 @@
 <p align="center">
   <a href="docs/ai-presentation-master-intro.mp4"><img src="docs/ai-presentation-master-intro.webp" alt="AI 簡報大師 intro" width="800"></a>
 </p>
-<p align="center"><sub>點圖片看含配樂的完整影片（MP4，33 秒）</sub></p>
+<p align="center"><sub>點圖片看含配樂的完整影片（MP4，36 秒）</sub></p>
 
 **AI 一鍵生成的簡報很漂亮，但老闆聽到一半就問：「所以結論是什麼？」**
 
