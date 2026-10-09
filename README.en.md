@@ -68,17 +68,17 @@ The full process has 13 steps, each labeled by who leads: you own the point of v
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'fontSize':'14px','lineColor':'#8A94A6'},'flowchart':{'nodeSpacing':18,'rankSpacing':30}}}%%
-flowchart LR
+flowchart TB
     subgraph T["Think it through"]
-        direction TB
+        direction LR
         S1("1 Define the task") --> S2("2 Analyze audience") --> S3("3 Gather material") --> S4("4 Distill insight") --> S5("5 Design structure")
     end
     subgraph M["Build it"]
-        direction TB
+        direction LR
         S6("6 Plan slides") --> S7("7 First draft") --> S8("8 Polish") --> S9("9 Stress-test") --> S10("10 Layout") --> S11("11 Visualize")
     end
     subgraph D["Deliver it"]
-        direction TB
+        direction LR
         S12("12 Script & rehearse") --> S13("13 Ship the files")
     end
     T --> M --> D

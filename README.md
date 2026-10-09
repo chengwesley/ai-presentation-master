@@ -66,17 +66,17 @@ Presentation Thinking 是一個簡報教練 skill。它不急著幫你生投影�
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'fontSize':'14px','lineColor':'#8A94A6'},'flowchart':{'nodeSpacing':18,'rankSpacing':30}}}%%
-flowchart LR
+flowchart TB
     subgraph T["想清楚"]
-        direction TB
+        direction LR
         S1("1 定義任務") --> S2("2 分析受眾") --> S3("3 蒐集資料") --> S4("4 提煉觀點") --> S5("5 設計架構")
     end
     subgraph M["做出來"]
-        direction TB
+        direction LR
         S6("6 規畫頁面") --> S7("7 生成初稿") --> S8("8 潤稿") --> S9("9 詰問測試") --> S10("10 版面設計") --> S11("11 視覺化")
     end
     subgraph D["講出來、交出去"]
-        direction TB
+        direction LR
         S12("12 講稿與演練") --> S13("13 交付輸出")
     end
     T --> M --> D
