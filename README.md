@@ -1,10 +1,12 @@
-# Presentation Thinking
+# AI 簡報大師｜AI Presentation Master
 
 **繁體中文** · [English](README.en.md)
 
 **AI 一鍵生成的簡報很漂亮，但老闆聽到一半就問：「所以結論是什麼？」**
 
-Presentation Thinking 是一個簡報教練 skill。它不急著幫你生投影片，而是在你動手之前，先陪你把要說的話想清楚：講給誰聽、有多少時間、主張是什麼、哪一頁該畫成什麼圖、上台會被問什麼。
+**AI 簡報大師**（AI Presentation Master）是一個 skill，教你**用 AI 工具，從想法到上台，做出完整的簡報設計**：構思主張、安排結構、把條列變成圖解、定版型與配色、交給 Gamma／Canva 等工具產出，一直到講稿、Q&A 與交付檢查，整份簡報設計一次到位。
+
+分工很清楚：**你定方向，AI 工具展開。** 觀點與判斷是你的，AI 負責把它做出來。
 
 它是通用的 `SKILL.md` 格式，Claude Code、Codex、Gemini CLI、Cursor 等支援 agent skills 的工具都能安裝。
 
@@ -16,7 +18,7 @@ Presentation Thinking 是一個簡報教練 skill。它不急著幫你生投影�
 
 **直接叫 AI 做**：馬上拿到一份 20 頁大綱，第一頁寫著「在這個瞬息萬變的時代，AI 已是不可逆的趨勢」。看起來完整，但沒有一句是你的觀點，也沒算過時間。
 
-**用 Presentation Thinking**：
+**用 AI 簡報大師**：
 
 1. **先問三件事**：你有多少時間？這是什麼場合？現場講，還是會寄給對方自己看？
 2. **把時間換算成內容量**：20 分鐘要先留 Q&A，實際講述只有 15 分鐘左右；聽眾記得住的核心訊息最多 3 個，所以頁數大約落在 12–20 頁——頁數是算出來的，不是憑感覺。
@@ -108,7 +110,7 @@ flowchart TB
 把整個資料夾放進你的 agent 的 skills 目錄。以 Claude Code 為例：
 
 ```bash
-git clone https://github.com/chengwesley/presentation-thinking ~/.claude/skills/presentation-thinking
+git clone https://github.com/chengwesley/ai-presentation-master ~/.claude/skills/ai-presentation-master
 ```
 
 ## 第一句可以這樣試
@@ -122,7 +124,7 @@ git clone https://github.com/chengwesley/presentation-thinking ~/.claude/skills/
 ## 檔案結構
 
 ```
-presentation-thinking/
+ai-presentation-master/
 ├── SKILL.md            # 入口：流程、情境路由、使用原則
 ├── references/         # 14 份主題文件，依情境或症狀按需讀取，不會一次全部載入
 └── evals/              # 9 個情境測試案例＋20 題觸發測試

@@ -1,10 +1,12 @@
-# Presentation Thinking
+# AI Presentation Master (AI 簡報大師)
 
 [繁體中文](README.md) · **English**
 
 **AI can generate a beautiful deck in one click. Then your boss interrupts halfway: "So what's the conclusion?"**
 
-Presentation Thinking is a presentation-coaching skill. Instead of rushing to generate slides, it helps you think things through *before* you build anything: who you're talking to, how much time you have, what you're actually arguing, what each slide should be drawn as, and what you'll be asked on stage.
+AI Presentation Master (Chinese name: AI 簡報大師) is a skill that shows you how to **use AI tools to design a complete presentation, from idea to stage**: shaping your argument, structuring it, turning bullet lists into diagrams, setting layout and color, handing specs to tools like Gamma or Canva, and preparing your script, Q&A and final delivery checks — the whole deck, end to end.
+
+The split is simple: **you set the direction, AI tools build it out.** The point of view and judgment are yours; AI does the making.
 
 It uses the standard `SKILL.md` format and works with Claude Code, Codex, Gemini CLI, Cursor and other tools that support agent skills.
 
@@ -18,7 +20,7 @@ It uses the standard `SKILL.md` format and works with Claude Code, Codex, Gemini
 
 **Ask an AI to just make it:** you instantly get a 20-slide outline whose first slide says "In this rapidly changing era, AI is an irreversible trend." It looks complete, but none of it is your point of view, and nobody did the math on time.
 
-**With Presentation Thinking:**
+**With AI Presentation Master:**
 
 1. **It asks three questions first:** How much time do you have? What kind of setting is this? Will you present it live, or will people read it on their own?
 2. **It turns time into content budget:** 20 minutes minus Q&A leaves roughly 15 minutes of talking; an audience retains at most about 3 core messages, so you land at roughly 12–20 slides. Slide count is calculated, not guessed.
@@ -110,7 +112,7 @@ It covers four settings, each with its own success criteria and reading path: **
 Put the folder in your agent's skills directory. For Claude Code:
 
 ```bash
-git clone https://github.com/chengwesley/presentation-thinking ~/.claude/skills/presentation-thinking
+git clone https://github.com/chengwesley/ai-presentation-master ~/.claude/skills/ai-presentation-master
 ```
 
 ## Try one of these first
@@ -124,7 +126,7 @@ git clone https://github.com/chengwesley/presentation-thinking ~/.claude/skills/
 ## Files
 
 ```
-presentation-thinking/
+ai-presentation-master/
 ├── SKILL.md            # Entry point: process, scenario routing, principles
 ├── references/         # 14 topic files, loaded on demand by scenario or symptom
 └── evals/              # 9 scenario test cases + 20 trigger tests

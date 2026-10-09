@@ -1,5 +1,5 @@
 {
-  "skill_name": "presentation-thinking",
+  "skill_name": "ai-presentation-master",
   "notes": "Trigger eval set。正例涵蓋四種場合＋新增的 13/14（規格交接、交付規格）。負例刻意選『近似但應交給別的 skill』的情境，用來偵測 description 過度觸發。",
   "queries": [
     {
