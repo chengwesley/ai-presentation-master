@@ -2,6 +2,11 @@
 
 [繁體中文](README.md) · **English**
 
+<p align="center">
+  <a href="docs/ai-presentation-master-intro.mp4"><img src="docs/ai-presentation-master-intro.webp" alt="AI 簡報大師 intro" width="800"></a>
+</p>
+<p align="center"><sub>Click for the full video with music (MP4, 33s)</sub></p>
+
 **AI can generate a beautiful deck in one click. Then your boss interrupts halfway: "So what's the conclusion?"**
 
 AI Presentation Master (Chinese name: AI 簡報大師) is a skill that shows you how to **use AI tools to design a complete presentation, from idea to stage**: shaping your argument, structuring it, turning bullet lists into diagrams, setting layout and color, handing specs to tools like Gamma or Canva, and preparing your script, Q&A and final delivery checks — the whole deck, end to end.

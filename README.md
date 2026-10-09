@@ -2,6 +2,11 @@
 
 **繁體中文** · [English](README.en.md)
 
+<p align="center">
+  <a href="docs/ai-presentation-master-intro.mp4"><img src="docs/ai-presentation-master-intro.webp" alt="AI 簡報大師 intro" width="800"></a>
+</p>
+<p align="center"><sub>點圖片看含配樂的完整影片（MP4，33 秒）</sub></p>
+
 **AI 一鍵生成的簡報很漂亮，但老闆聽到一半就問：「所以結論是什麼？」**
 
 **AI 簡報大師**（AI Presentation Master）是一個 skill，教你**用 AI 工具，從想法到上台，做出完整的簡報設計**：構思主張、安排結構、把條列變成圖解、定版型與配色、交給 Gamma／Canva 等工具產出，一直到講稿、Q&A 與交付檢查，整份簡報設計一次到位。
