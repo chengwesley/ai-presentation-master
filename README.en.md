@@ -54,22 +54,6 @@ The difference isn't whether the slides look good. It's whether **you know what 
 
 ---
 
-## Before and after
-
-**Original**
-
-> In this rapidly changing era full of challenges and opportunities, pushing this new project forward is an irreversible trend. Let's join hands to create a better future together.
-
-**Problems:** stacked adjectives, no concrete information, and the audience doesn't know what to do afterward.
-
-**Rewrite direction** (illustrative — replace the placeholders with your own real data)
-
-> The team spends [X] hours a week on [a specific task]. This new project brings that down to [Y] hours — today I'm asking you to decide whether we start.
-
-It will ask you for real numbers. It won't make one up and put it on your slide.
-
----
-
 ## You're the director; AI is the effects team
 
 The full process has 13 steps, each labeled by who leads: you own the point of view, audience judgment and delivery; AI drafts layouts and charts first, and you review.
