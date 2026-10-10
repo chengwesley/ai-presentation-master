@@ -125,3 +125,11 @@ ai-presentation-master/
 ## License
 
 [MIT](LICENSE)
+
+## Author
+
+**Wesley Cheng**
+
+[![GitHub](https://img.shields.io/badge/GitHub-chengwesley-181717?logo=github)](https://github.com/chengwesley)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Wesley%20Cheng-0A66C2?logo=linkedin)](https://www.linkedin.com/in/%E6%99%BA%E7%B6%AD-%E9%84%AD-547406133/)
+[![Email](https://img.shields.io/badge/Email-wesleylavie%40gmail.com-D14836?logo=gmail)](mailto:wesleylavie@gmail.com)
